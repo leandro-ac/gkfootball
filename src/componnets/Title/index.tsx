@@ -3,6 +3,7 @@ import { Heading } from "@chakra-ui/react"
 interface TitleServicesProps{
     title : string
     size: string
+    
 }
 
 export function TitleServices({title, size}:TitleServicesProps){

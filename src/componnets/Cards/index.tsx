@@ -12,11 +12,13 @@ interface CardServicesProps{
     title: string
     text: string
     size: string
+    
 }
 
-export function CardServices({src1, alt1, width1, height1,title, text, size}:CardServicesProps){
+export function CardServices({src1, alt1, width1, height1,title, text, size,}:CardServicesProps){
     return(
         <Stack
+            background={"#FFFFFF"}  
             as = "article"
             border = {"1px solid #FFFFFF"}
             px={6}
