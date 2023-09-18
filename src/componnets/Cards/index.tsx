@@ -11,9 +11,10 @@ interface CardServicesProps{
     height1: number
     title: string
     text: string
+    size: string
 }
 
-export function CardServices({src1, alt1, width1, height1,title, text}:CardServicesProps){
+export function CardServices({src1, alt1, width1, height1,title, text, size}:CardServicesProps){
     return(
         <Stack
             as = "article"
@@ -24,7 +25,7 @@ export function CardServices({src1, alt1, width1, height1,title, text}:CardServi
             align={"center"}
         >   
         <Image src={src1} alt={alt1} width={width1} height={height1}/>
-        <TitleServices title={title}/>
+        <TitleServices title={title} size={size}/>
         <TextServices text={text}/>
         </Stack>
     )

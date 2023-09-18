@@ -2,13 +2,14 @@ import { Heading } from "@chakra-ui/react"
 
 interface TitleServicesProps{
     title : string
+    size: string
 }
 
-export function TitleServices({title}:TitleServicesProps){
+export function TitleServices({title, size}:TitleServicesProps){
     return(
         <Heading
             as = "h3"
-            fontSize={"14px"}
+            fontSize={size}
             fontWeight={"400px"}
         >     
             {title}   
