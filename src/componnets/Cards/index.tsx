@@ -21,14 +21,14 @@ export function CardServices({src1, alt1, width1, height1,title, text, size,}:Ca
             background={"#FFFFFF"}  
             as = "article"
             border = {"1px solid #FFFFFF"}
-            px={6}
-            py={9}
+            px={8}
+            py={12}
             borderRadius={"16px"}
             align={"center"}
         >   
         <Image src={src1} alt={alt1} width={width1} height={height1}/>
-        <TitleServices title={title} size={size}/>
-        <TextServices text={text}/>
+        <TitleServices title={title} size={size} color={""}/>
+        <TextServices text={text} size={size} color={""}/>
         </Stack>
     )
 }

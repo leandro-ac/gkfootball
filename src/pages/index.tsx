@@ -1,5 +1,5 @@
 import { CardServices } from "@/componnets/Cards";
-import { SectionIndex } from "@/componnets/Section";
+import { SectionIndex, SectionIndex2} from "@/componnets/Section";
 import { TitleServices } from "@/componnets/Title";
 import { Center, HStack, Stack } from "@chakra-ui/react";
 
@@ -8,9 +8,11 @@ export default function Home() {
   return (
 
     <Stack
-      as={"main"}
+      as={"main"} 
       > 
-      <SectionIndex />
+      <SectionIndex/>
+      <SectionIndex2/>
+
       <Stack
       px={20}
       py={80}
@@ -19,7 +21,7 @@ export default function Home() {
         <Stack  
         align={"Center"}
         >
-        <TitleServices title={"MAIS VENDIDOS"} size={"48"}></TitleServices>
+        <TitleServices title={"AS MAIS VENDIDAS:"} size={"48"} color={"#DBA73B"}></TitleServices>
         </Stack>
         
         <HStack
@@ -33,7 +35,7 @@ export default function Home() {
         <Stack  
         align={"Center"}
         >
-        <TitleServices title={"BRASILEIRÃO"} size={"36"}></TitleServices>
+        <TitleServices title={"BRASILEIRÃO:"} size={"36"} color={"#FFFF"}></TitleServices>
         </Stack>
         <HStack
         spacing={12}
@@ -48,7 +50,7 @@ export default function Home() {
         <Stack  
         align={"Center"}
         >
-        <TitleServices title={"EUROPEUS"} size={"36"}></TitleServices>
+        <TitleServices title={"EUROPEUS:"} size={"36"} color={"#FFFF"}></TitleServices>
         </Stack>
         <HStack
         spacing={12}
@@ -63,22 +65,7 @@ export default function Home() {
           <Stack  
           align={"Center"}
           >
-          <TitleServices title={"OUTROS"} size={"36"}></TitleServices>
-          </Stack>
-          <HStack
-          spacing={12}
-          >
-          <CardServices src1={"/imagens/ALL.jpg"} alt1={"ALL"} width1={400} height1={800} title={"AL-NASSR"} text={"R$:99,99"} size={"16"} />
-          <CardServices src1={"/imagens/MIAMI.jpg"} alt1={"MIAMI"} width1={400} height1={800} title={"INTER MIAMI"} text={"R$:99,99"} size={"16"} />  
-          <CardServices src1={"/imagens/LDU.jpg"} alt1={"LDU"} width1={400} height1={800} title={"LDU"} text={"R$:99,99"} size={"16"} />
-          <CardServices src1={"/imagens/RIVER.jpg"} alt1={"RIVER"} width1={400} height1={800} title={"RIVER PLATE"} text={"R$:99,99"} size={"16"} />
-          <CardServices src1={"/imagens/AMERICA.jpg"} alt1={"AMÉRICA"} width1={400} height1={800} title={"AMÉRICA-MEX"} text={"R$:99,99"} size={"16"} />
-          </HStack>
-
-          <Stack  
-          align={"Center"}
-          >
-          <TitleServices title={"SELEÇÕES"} size={"36"}></TitleServices>
+          <TitleServices title={"SELEÇÕES:"} size={"36"} color={"#FFFF"}></TitleServices>
           </Stack>
           <HStack
           spacing={12}
@@ -89,6 +76,21 @@ export default function Home() {
           <CardServices src1={"/imagens/IRA.jpg"} alt1={"IRA"} width1={400} height1={800} title={"IRÃ"} text={"R$:99,99"} size={"16"} />
           <CardServices src1={"/imagens/ARGENTINA.jpg"} alt1={"ARGENTINA"} width1={400} height1={800} title={"ARGENTINA"} text={"R$:99,99"} size={"16"} />  
         </HStack>
+
+          <Stack  
+          align={"Center"}
+          >
+          <TitleServices title={"OUTROS:"} size={"36"} color={"#FFFF"}></TitleServices>
+          </Stack>
+          <HStack
+          spacing={12}
+          >
+          <CardServices src1={"/imagens/BOCA.jpg"} alt1={"boca"} width1={400} height1={800} title={"BOCA JUNIOR"} text={"R$:99,99"} size={"16"} />
+          <CardServices src1={"/imagens/PAYSANDU.jpg"} alt1={"paysandu"} width1={400} height1={800} title={"PAYSANDU"} text={"R$:99,99"} size={"16"} />  
+          <CardServices src1={"/imagens/LDU.jpg"} alt1={"LDU"} width1={400} height1={800} title={"LDU"} text={"R$:99,99"} size={"16"} />
+          <CardServices src1={"/imagens/RIVER.jpg"} alt1={"RIVER"} width1={400} height1={800} title={"RIVER PLATE"} text={"R$:99,99"} size={"16"} />
+          <CardServices src1={"/imagens/AMERICA.jpg"} alt1={"AMÉRICA"} width1={400} height1={800} title={"AMÉRICA-MEX"} text={"R$:99,99"} size={"16"} />
+          </HStack>
       </Stack>
     </Stack>
   )
