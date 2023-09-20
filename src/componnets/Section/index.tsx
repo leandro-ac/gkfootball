@@ -1,4 +1,4 @@
-import { Flex, Stack } from "@chakra-ui/react";
+import { HStack, Stack } from "@chakra-ui/react";
 import { TitleIndex } from "../Title";
 import { TextServices } from "../../../gkfootball/src/componnets/Text";
 
@@ -8,30 +8,32 @@ export function SectionIndex(){
         bgImage="url('/imagens/GPcamisas.jpg')"
         bgRepeat={"no-repeat"}
         bgSize={"100%"}
-        py={200}
+        py={180}
         >
         </Stack>
     )
 }
 export function SectionIndex2(){
     return(
-    <Stack
+    <HStack
     background={"#222121"}
+    py={6}
     >
         <Stack
-        w={"50%"}
+        w={"70%"}
         >
             <Stack
+            px={50}
             >
             <TitleIndex color={"#ffff"} text={"COMPROU,"}/>
             </Stack>
             <Stack
-            px={150}
+            px={200}
             >
             <TitleIndex color={"#ffff"} text={"VESTIU,"}/>
             </Stack>
             <Stack
-            px={280}
+            px={270}
             >
             <TitleIndex color={"#ffff"} text={"É GOL!"}/>
             </Stack>
@@ -39,7 +41,8 @@ export function SectionIndex2(){
         </Stack>
         
         <Stack
-        w={"50%"}
+        w={"70%"}
+        px={50}
         >
             <Stack
             >
@@ -50,6 +53,6 @@ export function SectionIndex2(){
             <TextServices text={"Na nossa loja, você encontrará uma incrível variedade de camisas de futebol de clubes e seleções de todo o mundo. Nossa loja online oferece desde as últimas novidades até modelos clássicos e edições especiais, tudo para que você vista sua paixão!"} size={"32px"} color={"#FFFF"}/>
             </Stack>
         </Stack>
-    </Stack>
+    </HStack>
     )
 }
