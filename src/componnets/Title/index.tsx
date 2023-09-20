@@ -1,5 +1,4 @@
 import { Heading } from "@chakra-ui/react"
-import { text } from "stream/consumers"
 
 interface TitleServicesProps{
     title : string

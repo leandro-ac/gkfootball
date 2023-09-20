@@ -8,22 +8,25 @@ export default function Home() {
   return (
 
     <Stack
-      as={"main"} 
-      > 
+      as={"main"}
+      spacing={0} 
+    >
+      
       <SectionIndex/>
       <SectionIndex2/>
 
       <Stack
-      px={20}
-      py={80}
-      spacing={16}
+        px={20}
+        py={24}
+        spacing={16}
       >
         <Stack  
-        align={"Center"}
+          align={"Center"}
         >
         <TitleServices title={"AS MAIS VENDIDAS:"} size={"48"} color={"#DBA73B"}></TitleServices>
         </Stack>
         
+
         <HStack
         spacing={16}
         >
