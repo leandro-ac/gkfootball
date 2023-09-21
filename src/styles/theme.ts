@@ -12,6 +12,7 @@ export const theme = extendTheme({
             }
         }
     },
+    
     breakpoints:{
         "2xl" : "2560px",
         "xl" : "1440px",
@@ -22,5 +23,6 @@ export const theme = extendTheme({
         "xxs" : "320px",
         "xxxs" : "200px"
     }
+
 
 })

@@ -39,9 +39,9 @@ export function CardLogin(){
     return(
         <Stack
             borderRadius={"16px"}
-            spacing={0}
+            spacing={6}
             bg={"lightblack"}
-            w={"25%"}
+            w={"35%"}
         >
 
             <Box
@@ -59,11 +59,12 @@ export function CardLogin(){
                 spacing={16}
                 align={'center'}
                 py={4}
+                px={2}
             >
-                <Image src={"/imagens/Logo.png"} alt={"logo"} width={200} height={80}/>
+                <Image src={"/imagens/Logo.png"} alt={"logo"} width={250} height={80}/>
                 <Stack w={"100%"} px={16}>
                     <InputIndex label={"Email:"} type={"email"} w={"100%"} placeholder={"Digite seu email:"} color={"white"} />
-                    <InputIndex label={"Senha"} type={"password"} w={"100%"} placeholder={"Senha:"} color={"white"}/> 
+                    <InputIndex label={"Senha:"} type={"password"} w={"100%"} placeholder={"Senha:"} color={"white"}/> 
                 </Stack>
                 <ButtonLogin textButton={"ENVIAR"} href={""}/>
             </Stack>
