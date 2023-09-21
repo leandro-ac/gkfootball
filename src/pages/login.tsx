@@ -4,11 +4,12 @@ import { Stack } from "@chakra-ui/react";
 export default function login(){
     return(
         <Stack
-        as={"main"}
-        p={10}
-        align={'center'}
+            as={"main"}
+            p={10}
+            align={'center'}
+            bgGradient={"linear(to-r, yellow.300, black.400, yellow.200)"}
         >
-            <CardLogin/>
+             <CardLogin/>
         </Stack>
     )
 }

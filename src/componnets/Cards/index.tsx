@@ -38,34 +38,36 @@ export function CardServices({src1, alt1, width1, height1,title, text, size,}:Ca
 export function CardLogin(){
     return(
         <Stack
-        borderRadius={"16px"}
-        spacing={0}
-        
-        bg={"#ffff"}
-        w={"25%"}
+            borderRadius={"16px"}
+            spacing={0}
+            bg={"lightblack"}
+            w={"25%"}
         >
 
-        <Box
-        bg={"yellow"}
-        width={"100%"}
-        height={"80px"}
-        borderRadius={"16px 16px 0 0"}
-        />
+            <Box
+                bg={"yellow"}
+                width={"100%"}
+                height={"80px"}
+                borderRadius={"16px 16px 0 0"}
+                textAlign={"center"}
+                py={4}
+            >
+                <TitleServices title={"Seja Bem Vindo(a)!"} size={"36px"} color={"black"}></TitleServices>
+            </Box>
 
-        <Stack
-        spacing={16}
-        align={'center'}
-        >
-        <Stack
-        w={"100%"}
-        justify={"space-between"}
-        px={16}
-        >
-            <InputIndex label={"Email"} type={"email"} w={"80%"} placeholder={"Digite seu email:"}/>
-            <InputIndex label={"Senha"} type={"password"} w={"80%"} placeholder={"Senha:"}/>
-        </Stack>
-        <ButtonLogin textButton={"ENVIAR"} href={""}/>  
-        </Stack>
+            <Stack
+                spacing={16}
+                align={'center'}
+                py={4}
+            >
+                <Image src={"/imagens/Logo.png"} alt={"logo"} width={200} height={80}/>
+                <Stack w={"100%"} px={16}>
+                    <InputIndex label={"Email:"} type={"email"} w={"100%"} placeholder={"Digite seu email:"} color={"white"} />
+                    <InputIndex label={"Senha"} type={"password"} w={"100%"} placeholder={"Senha:"} color={"white"}/> 
+                </Stack>
+                <ButtonLogin textButton={"ENVIAR"} href={""}/>
+            </Stack>
+       
         </Stack>
     )
 }

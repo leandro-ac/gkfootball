@@ -16,8 +16,6 @@ export function ButtonLogin({textButton, href}:ButtonLoginProps){
             fontWeight={400}
             w={"50%"}
             py={2}
-
-
         >    
         {textButton}
         </Button>
