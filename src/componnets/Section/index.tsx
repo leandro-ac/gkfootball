@@ -26,17 +26,17 @@ export function SectionIndex2(){
             <Stack
             px={50}
             >
-            <TitleIndex color={"#ffff"} text={"COMPROU,"} size={""}/>
+            <TitleIndex color={"#ffff"} text={"COMPROU,"} size={"64px"}/>
             </Stack>
             <Stack
             px={200}
             >
-            <TitleIndex color={"#ffff"} text={"VESTIU,"} size={""}/>
+            <TitleIndex color={"#ffff"} text={"VESTIU,"} size={"64px"}/>
             </Stack>
             <Stack
             px={270}
             >
-            <TitleIndex color={"#ffff"} text={"É GOL!"} size={""}/>
+            <TitleIndex color={"#ffff"} text={"É GOL!"} size={"64px"}/>
             </Stack>
             
         </Stack>
