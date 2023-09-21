@@ -12,52 +12,23 @@ export function Navbar(){
         position={'sticky'}
         top={0}
         >
-            <Image src={"/imagens/Logo.png"} alt={"logo"} width={160} height={40} />
-            <Stack
-            bg={"lightblack"}
-            px={16}
-            py={4}
-            borderRadius={"16px"}
-            textColor={"yellow"}
-            >
+            <Image src={"/imagens/Logo.png"} alt={"logo"} width={160} height={40}/>
+
+            <Stack bg={"lightblack"} px={16} py={4} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={""} text={"HOME"}/>
-            </Stack>
-            <Stack
-            bg={"lightblack"}
-            px={14}
-            py={4}
-            borderRadius={"16px"}
-            textColor={"yellow"}
-            >
+                </Stack>
+            <Stack bg={"lightblack"} px={14} py={4} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={""} text={"CONTATO"}/>
-            </Stack>
-            <Stack
-            bg={"lightblack"}
-            px={12}
-            py={4}
-            borderRadius={"16px"}
-            textColor={"yellow"}
-            >
+                </Stack>
+            <Stack bg={"lightblack"} px={12} py={4} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={""} text={"MEMBROS"}/>
-            </Stack>
-            <Stack
-            bg={"lightblack"}
-            px={8}
-            py={4}
-            borderRadius={"16px"}
-            textColor={"yellow"}
-            >
+                </Stack>
+            <Stack bg={"lightblack"} px={8} py={4} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={""} text={"GERENCIAMENTO"}/>
-            </Stack>
-            <Stack
-            bg={"lightblack"}
-            px={16}
-            py={4}
-            borderRadius={"16px"}
-            textColor={"yellow"}
-            >
+                </Stack>
+            <Stack bg={"lightblack"}px={16} py={4} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={""} text={"LOGIN"}/>
-            </Stack>
+                </Stack>
         </HStack>
     )
 }
