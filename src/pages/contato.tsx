@@ -1,7 +1,11 @@
-import { SectionContatos } from "@/componnets/Section";
+import { SectionContatos, SectionContatos2 } from "@/componnets/Section";
 
 export default function Home() {
     return (
-        <SectionContatos/>
+    <>
+        <SectionContatos />
+        <SectionContatos2 />
+    </>
+
     )
 }

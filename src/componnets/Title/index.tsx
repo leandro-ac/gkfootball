@@ -22,13 +22,14 @@ export function TitleServices({title, size, color}:TitleServicesProps){
 interface TitleIndexProps{
     color : string
     text: string 
+    size: string
 }
 
-export function TitleIndex({text, color}:TitleIndexProps){
+export function TitleIndex({text, color, size}:TitleIndexProps){
     return(
         <Heading
             as = "h1"
-            fontSize={"64px"}
+            fontSize={size}
             color={color}
             fontWeight={"400px"}
         >     
