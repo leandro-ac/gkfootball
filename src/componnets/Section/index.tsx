@@ -89,4 +89,26 @@ export function SectionContatos2(){
     </HStack>
     )
 }
+export function SectionContatos3(){
+    return(
+    <HStack
+    background={"#ffff"} py={40} justify={"center"} spacing={12}
+    >
+        <HStack>
+        <Image src={"/imagens/ig.png"} alt={"ig"} width={80} height={60} />
+        <TextServices text={"| @gkfootball"} size={"48px"} color={"black"}/>
+        </HStack>
+
+        <HStack>
+        <Image src={"/imagens/facebook.png"} alt={"facebook"} width={70} height={60} />
+        <TextServices text={"| @gkfootball"} size={"48px"} color={"black"}/>
+        </HStack>
+        
+        <HStack>
+        <Image src={"/imagens/wpp.png"} alt={"whatsapp"} width={60} height={60} />
+        <TextServices text={"| @gkfootball"} size={"48px"} color={"black"}/>
+        </HStack>
+    </HStack>
+    )
+}
 
