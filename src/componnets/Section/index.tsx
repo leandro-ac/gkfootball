@@ -1,6 +1,7 @@
 import { HStack, Stack } from "@chakra-ui/react";
 import { TitleIndex } from "../Title";
 import { TextServices } from "../../../src/componnets/Text";
+import { Image } from "../../../src/componnets/Image";
 
 export function SectionIndex(){
     return(
@@ -56,3 +57,26 @@ export function SectionIndex2(){
     </HStack>
     )
 }
+
+export function SectionContatos(){
+    return(
+    <HStack
+    background={"lightblack"}
+    py={0}
+    >
+        <Stack
+        w={"70%"}
+        px={220}
+        >
+        <TitleIndex color={"yellow"} text={"FALE COM A GENTE!"}/>    
+        </Stack>
+        
+        <Stack
+        
+        >
+        <Image src={"/imagens/GPCONTATO.png"} alt={"logo"} width={400} height={40}/>
+        </Stack>
+    </HStack>
+    )
+}
+

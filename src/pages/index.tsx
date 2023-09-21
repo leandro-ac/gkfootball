@@ -1,7 +1,7 @@
 import { CardServices } from "@/componnets/Cards";
 import { SectionIndex, SectionIndex2} from "@/componnets/Section";
 import { TitleServices } from "@/componnets/Title";
-import { Center, HStack, Stack } from "@chakra-ui/react";
+import { HStack, Stack } from "@chakra-ui/react";
 
 
 export default function Home() {
