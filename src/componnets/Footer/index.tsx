@@ -6,8 +6,9 @@ export function Footer(){
         bg={"yellow"}
         justify={"center"}
         spacing={40}
+        py={2}
         >
-            <Image src={"/imagens/logos.png"} alt={"logo"} width={40} height={40} />    
+            <Image src={"/imagens/logos.png"} alt={"logo"} width={40} height={20} />    
         
             <Stack
             p={10} 
