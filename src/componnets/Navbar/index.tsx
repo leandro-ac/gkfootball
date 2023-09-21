@@ -1,6 +1,6 @@
 import { HStack, Stack } from "@chakra-ui/react";
 import { LinkNavbar } from "../Links";
-import { Image } from "../../../gkfootball/src/componnets/Image";
+import { Image } from "../../../src/componnets/Image";
 
 export function Navbar(){
     return(

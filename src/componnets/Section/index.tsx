@@ -1,6 +1,6 @@
 import { HStack, Stack } from "@chakra-ui/react";
 import { TitleIndex } from "../Title";
-import { TextServices } from "../../../gkfootball/src/componnets/Text";
+import { TextServices } from "../../../src/componnets/Text";
 
 export function SectionIndex(){
     return(

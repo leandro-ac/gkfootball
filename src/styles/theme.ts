@@ -21,8 +21,6 @@ export const theme = extendTheme({
         "xs" : "375px",
         "xxs" : "320px",
         "xxxs" : "200px"
-
-
     }
 
 })
