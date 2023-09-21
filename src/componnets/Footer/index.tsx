@@ -1,11 +1,17 @@
-import { Stack, Text } from "@chakra-ui/react";
+import { Stack, HStack, Text, Image } from "@chakra-ui/react";
 
 export function Footer(){
     return(
+        <HStack
+        bg={"yellow"}
+        justify={"center"}
+        spacing={40}
+        >
+        <Image src={"/imagens/logos.png"} alt={"logo"} width={40} height={40} />    
+        
         <Stack
         p={10}
         align={"center"}
-        bg={"yellow"}
         >
             <Text
             as={"p"}
@@ -27,5 +33,7 @@ export function Footer(){
             >
             Rua José Lourenço Kelmer, UFJF,Instituto de Ciências Exatas, sala 3313            </Text>
         </Stack>
+        <Image src={"/imagens/Logo.png"} alt={"logo"} width={40} height={40} /> 
+        </HStack>
     )
 }
