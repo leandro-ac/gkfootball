@@ -14,7 +14,9 @@ export function ButtonLogin({textButton, href}:ButtonLoginProps){
             bg={"yellow"}
             fontSize={"24px"}
             fontWeight={400}
-            
+            w={"50%"}
+            py={2}
+
 
         >    
         {textButton}

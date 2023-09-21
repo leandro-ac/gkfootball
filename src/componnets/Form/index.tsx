@@ -3,13 +3,17 @@ import { FormControl, FormHelperText, FormLabel, Input } from "@chakra-ui/react"
 interface InputIndexProps{
     label:string
     type:string 
+    w: string
+    placeholder:string
 }
 
-export function InputIndex({label, type}:InputIndexProps){
+export function InputIndex({label, type, w, placeholder}:InputIndexProps){
     return(
-        <FormControl>
+        <FormControl
+        w={w}
+        >
             <FormLabel>{label}</FormLabel>
-            <Input type={type}/>
+            <Input type={type} placeholder={placeholder}/>
         </FormControl>
     )
 }

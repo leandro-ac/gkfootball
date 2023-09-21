@@ -4,7 +4,10 @@ import { Stack } from "@chakra-ui/react";
 export default function login(){
     return(
         <Stack
-        as={"main"}>
+        as={"main"}
+        p={10}
+        align={'center'}
+        >
             <CardLogin/>
         </Stack>
     )
