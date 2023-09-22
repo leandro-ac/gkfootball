@@ -1,6 +1,6 @@
 import { SectionContatos, SectionContatos2, SectionContatos3 } from "@/componnets/Section";
 
-export default function Home() {
+export default function Contato() {
     return (
     <>
         <SectionContatos />

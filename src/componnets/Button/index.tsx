@@ -15,7 +15,22 @@ export function ButtonLogin({textButton, href}:ButtonLoginProps){
             fontSize={"24px"}
             fontWeight={400}
             w={"50%"}
-            py={2}
+            py={2}  
+        >    
+        {textButton}
+        </Button>
+    )
+}
+export function ButtonContato({textButton, href}:ButtonLoginProps){
+    return(
+        <Button
+            as={NextLink}
+            href={href}
+            bg={"yellow"}
+            fontSize={"24px"}
+            fontWeight={400}
+            w={"50%"}
+            py={2}  
         >    
         {textButton}
         </Button>

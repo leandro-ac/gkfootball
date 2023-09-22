@@ -2,6 +2,8 @@ import { HStack, Stack } from "@chakra-ui/react";
 import { TitleIndex } from "../Title";
 import { TextServices } from "../../../src/componnets/Text";
 import { Image } from "../../../src/componnets/Image";
+import { InputIndex } from "../Form";
+import { ButtonContato, ButtonLogin } from "../Button";
 
 export function SectionIndex(){
     return(
@@ -75,16 +77,19 @@ export function SectionContatos2(){
     <HStack
     background={"black"} py={8}
     >
-        <Stack
-        w={"50%"}
-        px={24}
-        >
-        <TextServices text={"A GK FOOTBALL é uma empresa dedicada à paixão pelo futebol, oferecendo uma incrível variedade de camisas de futebol autênticas para os entusiastas do esporte. Nossa coleção abrange desde os times clássicos até as equipes contemporâneas mais renomadas, proporcionando aos torcedores a oportunidade de vestir o orgulho de sua equipe do coração. Nosso foco na qualidade é inigualável, utilizando materiais premium para garantir um conforto incomparável durante os jogos e eventos esportivos. Na GK FOOTBALL, celebramos a conexão emocional entre os torcedores e o esporte, fornecendo produtos que capturam a essência vibrante e empolgante do futebol."} size={"28px"} color={"yellow"}/>
+        <Stack w={"50%"} px={24}>
+            <TextServices text={"A GK FOOTBALL é uma empresa dedicada à paixão pelo futebol, oferecendo uma incrível variedade de camisas de futebol autênticas para os entusiastas do esporte. Nossa coleção abrange desde os times clássicos até as equipes contemporâneas mais renomadas, proporcionando aos torcedores a oportunidade de vestir o orgulho de sua equipe do coração. Nosso foco na qualidade é inigualável, utilizando materiais premium para garantir um conforto incomparável durante os jogos e eventos esportivos. Na GK FOOTBALL, celebramos a conexão emocional entre os torcedores e o esporte, fornecendo produtos que capturam a essência vibrante e empolgante do futebol."} size={"24px"} color={"yellow"}/>
         </Stack>
 
         <Stack align={"center"}> 
-        <TextServices text={"Nos mande uma mensagem através do email:"} size={"28px"} color={"#ffff"}/>
-        <TextServices text={"contato@gkfootball.com.br"} size={"28px"} color={"#ffff"}/>
+                <TextServices text={"Nos mande uma mensagem através do email:"} size={"28px"} color={"#ffff"}/>
+                <TextServices text={"contato@gkfootball.com.br"} size={"28px"} color={"#ffff"}/>
+            <Stack  align={"center"} spacing={4} w={"100%"}>
+                <InputIndex label={"Nome"} type={"Name"} w={"100%"} placeholder={""} color={"White"}/>
+                <InputIndex label={"Email"} type={"email"} w={"100%"} placeholder={""} color={"White"}/>
+                <InputIndex label={"Mensagem"} type={"text"} w={"100%"} placeholder={""} color={"White"}/>
+                <ButtonContato textButton={"ENVIAR"} href={""}/>
+            </Stack>
         </Stack>
     </HStack>
     )
@@ -106,7 +111,7 @@ export function SectionContatos3(){
         
         <HStack>
         <Image src={"/imagens/wpp.png"} alt={"whatsapp"} width={60} height={60} />
-        <TextServices text={"| @gkfootball"} size={"48px"} color={"black"}/>
+        <TextServices text={"| (32) 99999-9999 "} size={"48px"} color={"black"}/>
         </HStack>
     </HStack>
     )
