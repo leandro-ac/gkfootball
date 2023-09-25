@@ -56,17 +56,14 @@ export function CardLogin(){
             </Box>
 
             <Stack
-                spacing={16}
-                align={'center'}
-                py={4}
-                px={2}
+                spacing={16} py={4} px={2} align={"center"}
             >
                 <Image src={"/imagens/Logo.png"} alt={"logo"} width={250} height={80}/>
                 <Stack w={"100%"} px={16}>
                     <InputIndex label={"Email:"} type={"email"} w={"100%"} placeholder={"Digite seu email:"} color={"white"} />
                     <InputIndex label={"Senha:"} type={"password"} w={"100%"} placeholder={"Senha:"} color={"white"}/> 
                 </Stack>
-                <ButtonLogin textButton={"ENVIAR"} href={""}/>
+                <ButtonLogin textButton={"ENTRAR"} href={""}/>
             </Stack>
        
         </Stack>

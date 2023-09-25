@@ -7,7 +7,7 @@ export default function login(){
             as={"main"}
             p={10}
             align={'center'}
-            bgGradient={'linear(to-r, gray.300, yellow.400, pink.200)'}
+            bg={'yellow'}
         >
              <CardLogin/>
         </Stack>
