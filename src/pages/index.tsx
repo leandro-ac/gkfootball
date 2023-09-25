@@ -2,10 +2,13 @@ import { CardServices } from "@/componnets/Cards";
 import { SectionIndex, SectionIndex2} from "@/componnets/Section";
 import { TitleServices } from "@/componnets/Title";
 import { HStack, Stack } from "@chakra-ui/react";
+import { Navbar } from '@/componnets/Navbar'
+import { Footer } from '@/componnets/Footer'
 
 
 export default function Home() {
   return (
+  <Stack><Navbar/>
 
     <Stack
       as={"main"}
@@ -96,5 +99,7 @@ export default function Home() {
           </HStack>
       </Stack>
     </Stack>
+  
+  <Footer/></Stack>
   )
 }
