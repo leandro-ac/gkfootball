@@ -12,8 +12,12 @@ export default function Membros() {
             <Stack align={"center"} py={4}>
             <TitleServices title={"MEMBROS"} size={"36px"} color={"yellow"}></TitleServices>
             </Stack>
-            <TableIndex nome={"LEANDRO ALVARES DE CARVALHO"} email={"leandro@code"} niver={"24/09/2000"} cargo={"Assessor Comercial"} ></TableIndex>
-            <TableIndex nome={"LEANDRO ALVARES DE CARVALHO"} email={"leandro@code"} niver={"24/09/2000"} cargo={"Assessor Comercial"} ></TableIndex>
+            <TableIndex nome={""} email={""} niver={""} cargo={""} ></TableIndex>
+            <TableIndex nome={""} email={""} niver={""} cargo={""} ></TableIndex>
+            <TableIndex nome={""} email={""} niver={""} cargo={""} ></TableIndex>
+            <TableIndex nome={""} email={""} niver={""} cargo={""} ></TableIndex>
+            <TableIndex nome={""} email={""} niver={""} cargo={""} ></TableIndex>
+            <TableIndex nome={""} email={""} niver={""} cargo={""} ></TableIndex>
             
         </Stack>
 

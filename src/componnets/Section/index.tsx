@@ -97,7 +97,7 @@ export function SectionContatos2(){
 export function SectionContatos3(){
     return(
     <HStack
-    background={"#ffff"} py={40} justify={"center"} spacing={12}
+    background={"#ffff"} py={40} align={"center"} justify={"center"} spacing={12}
     >
         <HStack>
         <Image src={"/imagens/ig.png"} alt={"ig"} width={80} height={60} />
