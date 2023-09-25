@@ -9,7 +9,7 @@ export default function login(){
             align={'center'}
             bg={'yellow'}
         >
-             <CardLogin/>
+            <CardLogin/>
         </Stack>
     )
 }

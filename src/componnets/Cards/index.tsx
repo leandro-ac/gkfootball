@@ -39,7 +39,6 @@ export function CardLogin(){
     return(
         <Stack
             borderRadius={"16px"}
-            spacing={6}
             bg={"lightblack"}
             w={"35%"}
         >
