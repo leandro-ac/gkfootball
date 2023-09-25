@@ -15,19 +15,19 @@ export function Navbar(){
             <Image src={"/imagens/Logo.png"} alt={"logo"} width={120} height={40}/>
 
             <Stack bg={"lightblack"} px={16} py={2} borderRadius={"16px"} textColor={"yellow"}>
-            <LinkNavbar href={""} text={"HOME"}/>
+            <LinkNavbar href={"."} text={"HOME"}/>
                 </Stack>
             <Stack bg={"lightblack"} px={14} py={2} borderRadius={"16px"} textColor={"yellow"}>
-            <LinkNavbar href={""} text={"CONTATO"}/>
+            <LinkNavbar href={"/contato"} text={"CONTATO"}/>
                 </Stack>
             <Stack bg={"lightblack"} px={12} py={2} borderRadius={"16px"} textColor={"yellow"}>
-            <LinkNavbar href={""} text={"MEMBROS"}/>
+            <LinkNavbar href={"/membros"} text={"MEMBROS"}/>
                 </Stack>
             <Stack bg={"lightblack"} px={8} py={2} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={""} text={"GERENCIAMENTO"}/>
                 </Stack>
             <Stack bg={"lightblack"}px={16} py={2} borderRadius={"16px"} textColor={"yellow"}>
-            <LinkNavbar href={""} text={"LOGIN"}/>
+            <LinkNavbar href={"/login"} text={"LOGIN"}/>
                 </Stack>
         </HStack>
     )
