@@ -17,10 +17,10 @@ export function TableIndex({ nome, email, niver, cargo }: TableIndexProps) {
                     >
                         <Tr
                         >
-                            <Th border={"1px solid #000"}>Nome</Th>
-                            <Th border={"1px solid #000"}>E-mail</Th>
-                            <Th border={"1px solid #000"}>Aniversário</Th>
-                            <Th border={"1px solid #000"}>Cargo</Th>
+                            <Th border={"1px solid #000"}>Nome:</Th>
+                            <Th border={"1px solid #000"}>E-mail:</Th>
+                            <Th border={"1px solid #000"}>Aniversário:</Th>
+                            <Th border={"1px solid #000"}>Cargo:</Th>
                         </Tr>
                     </Thead>
                     <Tbody
