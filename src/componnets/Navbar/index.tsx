@@ -24,7 +24,7 @@ export function Navbar(){
             <LinkNavbar href={"/membros"} text={"MEMBROS"}/>
                 </Stack>
             <Stack bg={"lightblack"} px={8} py={2} borderRadius={"16px"} textColor={"yellow"}>
-            <LinkNavbar href={""} text={"GERENCIAMENTO"}/>
+            <LinkNavbar href={"/gerenciamento"} text={"GERENCIAMENTO"}/>
                 </Stack>
             <Stack bg={"lightblack"}px={16} py={2} borderRadius={"16px"} textColor={"yellow"}>
             <LinkNavbar href={"/login"} text={"LOGIN"}/>

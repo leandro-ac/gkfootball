@@ -63,7 +63,7 @@ export function CardLogin(){
                     <InputIndex label={"Email:"} type={"email"} w={"100%"} placeholder={"Digite seu email:"} color={"white"} />
                     <InputIndex label={"Senha:"} type={"password"} w={"100%"} placeholder={"Senha:"} color={"white"}/> 
                 </Stack>
-                <ButtonLogin textButton={"ENTRAR"} href={""}/>
+                <ButtonLogin textButton={"ENTRAR"} href={"/gerenciamento"}/>
             </Stack>
        
         </Stack>
