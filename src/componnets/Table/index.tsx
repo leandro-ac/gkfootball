@@ -56,6 +56,7 @@ export function TableManager({ nome, email, niver, cargo }: TableManagerProps) {
                             bg={"yellow"}
                         >
                             <Tr
+
                             >
                                 <Th border={"1px solid #000"}>Nome</Th>
                                 <Th border={"1px solid #000"}>E-mail</Th>

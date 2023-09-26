@@ -4,6 +4,8 @@ import { Stack } from "@chakra-ui/react";
 import { Navbar } from '@/componnets/Navbar'
 import { Footer } from '@/componnets/Footer'
 
+
+
 export default function Gerenciamento() {
     return (
     <Stack><Navbar/>  
@@ -13,7 +15,11 @@ export default function Gerenciamento() {
             <TitleServices title={"GERENCIAMENTO"} size={"36px"} color={"yellow"}></TitleServices>
             </Stack>
             <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
-            
+            <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
+            <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
+            <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
+            <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
+            <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
         </Stack>
 
     <Footer/></Stack>
