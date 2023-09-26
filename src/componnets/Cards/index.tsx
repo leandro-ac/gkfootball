@@ -41,6 +41,7 @@ export function CardLogin(){
             borderRadius={"16px"}
             bg={"lightblack"}
             w={"35%"}
+            fontFamily={"bayon"}
         >
 
             <Box

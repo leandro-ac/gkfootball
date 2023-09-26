@@ -15,7 +15,8 @@ export function ButtonLogin({textButton, href}:ButtonLoginProps){
             fontSize={"24px"}
             fontWeight={400}
             w={"50%"}
-            py={2}  
+            py={2}
+            fontFamily={"bayon"}  
         >    
         {textButton}
         </Button>
@@ -30,7 +31,8 @@ export function ButtonContato({textButton, href}:ButtonLoginProps){
             fontSize={"24px"}
             fontWeight={400}
             w={"50%"}
-            py={2}  
+            py={2}
+            fontFamily={"bayon"}  
         >    
         {textButton}
         </Button>

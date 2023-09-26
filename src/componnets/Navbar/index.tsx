@@ -11,6 +11,7 @@ export function Navbar(){
         spacing={16}
         position={'sticky'}
         top={0}
+        fontFamily={"bayon"}
         >
             <Image src={"/imagens/Logo.png"} alt={"logo"} width={120} height={40}/>
 

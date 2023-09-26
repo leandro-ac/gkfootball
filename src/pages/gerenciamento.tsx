@@ -1,4 +1,4 @@
-import { TableIndex } from "@/componnets/Table";
+import { TableIndex, TableManager } from "@/componnets/Table";
 import { TitleServices } from "@/componnets/Title";
 import { Stack } from "@chakra-ui/react";
 import { Navbar } from '@/componnets/Navbar'
@@ -12,8 +12,7 @@ export default function Gerenciamento() {
             <Stack align={"center"} py={4}>
             <TitleServices title={"GERENCIAMENTO"} size={"36px"} color={"yellow"}></TitleServices>
             </Stack>
-            <TableIndex nome={"LEANDRO ALVARES DE CARVALHO"} email={"leandro@code"} niver={"24/09/2000"} cargo={"Assessor Comercial"} ></TableIndex>
-            <TableIndex nome={"LEANDRO ALVARES DE CARVALHO"} email={"leandro@code"} niver={"24/09/2000"} cargo={"Assessor Comercial"} ></TableIndex>
+            <TableManager nome={""} email={""} niver={""} cargo={""}></TableManager>
             
         </Stack>
 

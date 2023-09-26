@@ -14,6 +14,7 @@ export function TitleServices({title, size, color}:TitleServicesProps){
             fontSize={size}
             fontWeight={"400px"}
             color={color}
+            fontFamily={"bayon"}
         >     
             {title}   
         </Heading>
@@ -32,6 +33,7 @@ export function TitleIndex({text, color, size}:TitleIndexProps){
             fontSize={size}
             color={color}
             fontWeight={"400px"}
+            fontFamily={"bayon"}
         >     
             {text}   
         </Heading>

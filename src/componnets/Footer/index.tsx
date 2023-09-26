@@ -7,6 +7,7 @@ export function Footer(){
         justify={"center"}
         spacing={40}
         py={2}
+        fontFamily={"bayon"}
         >
             <Image src={"/imagens/logos.png"} alt={"logo"} width={40} height={20} />    
         

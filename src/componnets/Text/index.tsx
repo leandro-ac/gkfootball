@@ -13,6 +13,7 @@ export function TextServices({text, size, color}:TextServicesProps){
         color={color}
         fontSize={size}
         fontWeight={"400px"}
+        fontFamily={"bayon"}
         >
             {text}
         </Text>
